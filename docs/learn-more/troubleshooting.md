@@ -43,7 +43,7 @@ situation you should:
 To see the status of **source{d} CE** components, just run:
 
 ```
-$ sourced status
+$ sourced status components
 
 Name                      Command                   State         Ports
 ------------------------------------------------------------------------------
@@ -109,7 +109,7 @@ will output only log lines where `error` word appears.
 
 
 ## How Can I See What Happened with the Scrapers?
-
+_When **source{d} CE** is initialized with `sourced init local`, the scrapers are
 _When **souece{d} CE** is initialized with `sourced init local`, the scrapers are
 not relevant because the repositories to analyze comes from your local data, so
 `ghsync` and `gitcollector` status is not relevant in this case._
